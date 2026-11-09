@@ -1,0 +1,4 @@
+#include "Generated.xcconfig"
+
+// Xcode 27 lipo -verify_arch accepts one arch; Flutter 3.44 passes all ARCHS. Build arm64-only sims.
+ARCHS[sdk=iphonesimulator*]=arm64
