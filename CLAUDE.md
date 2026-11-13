@@ -1,6 +1,6 @@
 # Flutter Scaffold — live demo
 
-Pre-built iOS Flutter app. During the demo, the audience picks a subject and we
+Pre-built Flutter web app. During the demo, the audience picks a subject and we
 turn this into an app about it.
 
 ## Rules for the demo
@@ -10,4 +10,4 @@ turn this into an app about it.
 - Use emoji for images — no assets, no network, no new packages.
 - Keep facts accurate and age-appropriate (high school audience).
 - Rename `flutter_scaffold`/bundle id only if asked.
-- Verify with `flutter test` then `flutter run` on the iOS simulator.
+- Verify with `flutter test` then `flutter run -d chrome`.
